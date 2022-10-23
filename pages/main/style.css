@@ -1,0 +1,561 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    margin: auto; 
+    max-width: 1280px;
+    
+}
+.header {
+    width: 100%;
+    height: 120px;
+
+   background: url(../../assets/images/noise_transparent@2x.png), radial-gradient(100% 215.42% at 0% 100%, #5b483a 0%, #262425 100%), #211f20;
+}
+
+.header__container {
+    width: 1200px;
+    height: 60px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    position: relative;
+    left: calc(50% - 600px);
+    top: 60px;
+}
+.header__logo a{
+    text-decoration: none;
+
+}
+
+
+.header__logo-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 110%;
+    font-weight: 400;
+    color: #F1CDB3;
+    letter-spacing: 0.06em;
+    
+
+}
+.header__logo-subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    margin-top: 10px;
+    color:#FFFFFF;
+}
+.header__nav {
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header__nav-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    margin: 0px 0px 0px 35px;
+    color: #FAFAFA;
+    text-decoration: none;
+      
+}
+.header__nav-link:visited {
+    color:  #FAFAFA;
+}
+
+.header__nav-link:hover {
+    color:  #acacac;
+    transition: 0.5s;
+}
+
+#active-link{
+    border-bottom: 3px solid #F1CDB3;
+}
+
+.startscreen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url(../../assets/images/noise_transparent@2x.png), radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20; 
+}
+
+.startscreen__container {
+    width: 1200px;
+    position: relative;
+    left: 40px;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.startscreen__descr {
+    margin-top: -5rem;
+    width: 28.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+.startscreen__descr-title {
+    display: block;
+    font-family: Georgia;
+    width: 19.3rem;
+    font-weight: 400;
+    font-size: 2.75rem;
+    line-height: 130%;
+    color: #fff;
+
+}
+.startscreen__descr-subtitle {
+    margin-top: 2.625rem;
+    display: block;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: .94rem;
+    line-height: 160%;
+    align-items: center;
+    color: #cdcdcd;
+
+}
+.startscreen__descr-btn {
+    margin-top: 2.5rem;
+    text-align: center;
+    width: 12.9rem;
+    height: 3.25rem;
+    left: 22.5rem;
+    top: 38.25rem;
+    background: #f1cdb3;
+    border-radius: 6.25rem;
+    border: 0;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 1.06rem;
+    line-height: 130%;
+    letter-spacing: .06em;
+    color: #292929;
+    cursor: pointer;
+    transition: .1s;
+    outline: 0;
+
+}
+.startscreen__descr-btn:hover{
+   background: #FDDCC4;
+border-radius: 100px; 
+}
+.startscreen__img {
+    width: 698px;
+    height: 728px;
+}
+.about {
+width: 1200px;
+margin-left:40px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 80px;
+padding-bottom:100px;
+
+}
+.about__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__decription {
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 120px;
+}
+
+.about__title {
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+color: #545454;
+
+}
+.about__subtitle {
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+color: #4C4C4C;
+margin-top: 25px;
+}
+
+
+
+.pets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F6F6F6;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    
+    
+}
+.pets__content {
+    width: 1200px;
+}
+
+
+.pets__title {
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+text-align: center;
+letter-spacing: 0.06em;
+color: #545454;
+
+}
+.pets__content-slider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+.pets__slider-btn-left {
+    background: none;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 19px 19px;
+border: 2px solid #F1CDB3;
+box-sizing: border-box;
+border-radius: 100px;
+cursor: pointer;
+}
+
+.pets__slider-card {
+    text-align: center;
+    margin: 0 45px 0;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    border-radius: 9px;
+   
+}
+.pets__slider-card:hover button{
+    background: #FDDCC4;
+}
+.pets__slider-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 18px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+    
+}
+.pets__slider-card-img {
+    margin-bottom: 25px;
+
+
+}
+.pets__slider-card-title {
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+align-items: center;
+letter-spacing: 0.06em;
+color: #545454;
+margin-bottom: 30px;
+
+}
+.pets__slider-card-btn {
+background: none;
+align-items: center;
+padding: 13px 42px;
+border: 2px solid #F1CDB3;
+box-sizing: border-box;
+border-radius: 100px;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 130%;
+letter-spacing: 0.06em;
+color: #292929;
+cursor: pointer;
+}
+
+.pets__slider-btn-left:hover,
+.pets__slider-btn-right:hover{
+    background: #FDDCC4;
+}
+
+.pets__slider-btn-right {
+background: none;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 19px 19px;
+border: 2px solid #F1CDB3;
+box-sizing: border-box;
+border-radius: 100px;
+cursor: pointer;
+
+}
+.pets__content-btb {
+text-align: center;
+padding: 15px 45px;
+background: #F1CDB3;
+border-radius: 100px;
+border: none;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 130%;
+letter-spacing: 0.04em;
+color: #292929;
+margin-top: 60px;
+cursor: pointer;
+}
+
+.pets__content-btb:hover{
+    background: #FDDCC4; 
+}
+
+
+.help {
+    padding-top: 80px;
+    padding-bottom:100px;
+}
+.help__wrapper {
+    width: 1200px;
+    position: relative;
+    left:40px;
+}
+
+.help_title {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.help__container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    row-gap: 3.5rem;
+    column-gap: 7.5rem;
+    margin: 3.75rem auto 0rem auto;
+    background: #fff;
+}
+
+.help__item {
+    text-align: center;
+}
+
+
+.help__item-subtitle {
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #545454;
+margin-top: 25px;
+}
+
+.donation {
+    background: #F6F6F6;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.donation__wrapper {
+    width: 915px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.donation__wrapper-img{
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.donation__wrapper-heading {
+    width: 380px;
+    padding-left: 15px;
+}
+.donation__wrapper-title {
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+align-items: center;
+letter-spacing: 0.06em;
+color: #545454;
+margin-bottom: 20px;
+}
+.donation__wrapper-subtitle {
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 110%;
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+color: #545454;
+margin-bottom: 20px;
+}
+
+.donation__wrapper-requisites-number {
+    width: 350px;
+background: #F1CDB3;
+border-radius: 9px;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+align-items: center;
+letter-spacing: 0.06em;
+color: #545454;
+display: flex; 
+align-items: center;
+padding: 10px 15px;
+text-decoration: none;
+box-sizing: border-box;
+}
+
+.donation__wrapper-requisites-number span{
+margin-left: 15px;
+
+}
+.donation__wrapper-requisites-descr {
+font-family: 'Arial';
+font-style: italic;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+display: flex;
+align-items: center;
+color: #B2B2B2;
+margin-top: 20px;
+}
+
+
+.footer__content {
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: row;
+    gap: 160px;
+    padding: 40px;
+    padding-bottom: 0px;
+    background: url(../../assets/img/noise_transparent@2x.png), radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;
+    
+}
+.connection {
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 16px;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+.connection__title {
+    
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}
+.connection__link a{
+    color: #F1CDB3;
+    text-decoration: none;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+}
+
+.email, 
+.phone,
+.address {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+    gap: 33px;
+    min-width: 302px;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+.location__title {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}
+
+.location__link  a{
+    color: #F1CDB3;
+    text-decoration: none;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    
+}
+
