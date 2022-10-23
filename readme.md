@@ -1,6 +1,6 @@
 # Shelter Cozy Home
 ## Сайт для помощи животным в поиске нового дома.
-### Live Demo [(https://elenero.github.io/shelter/pages/main/index.html)]
+### Live Demo (https://elenero.github.io/shelter/pages/main/index.html)
 ### Стек: HTML, Css, Vanilla JS
 ### Описание:
 * Сайт для декстопной версии с разрешением от 1280px, адаптивная часть в разработке
